@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAND</title>
+    <link rel="stylesheet" href="/index.css">
+
+<!-- * fontların bildirilmesi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body >
+<!-- * HEADER -->
+    <header header style="position: sticky; top: 0; background-color: white">
+        <div style="display: flex; justify-content: space-between;align-items: center;">
+<!--BRAND yazısı-->
+          <div>
+            <a class="barrio-regular" style="font-size: 60px">BrAnd</a>
+          </div>
+<!--header butonları-->
+          <div style="padding-top: 10px">
+            <button>
+              <a class="buttonText quicksand-simple" href="/index.html">home</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/icecek/cappuccino.html">içecek</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple headerTatli" href="/tatli/pasta.html">tatlı</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/kahvalti/kizatmaT.html"
+                >kahvaltı</a
+              >
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/bizimleCalis.html"
+                >bizimle çalış</a
+              >
+            </button>
+          </div>
+        </div>
+      </header>
+
+<!-- * BODY -->
+      <div
+      style="
+        display: grid;
+        grid-template-rows: repeat(3, 1fr) ;
+        grid-template-columns: repeat(12, 1fr);
+        margin: 20px 0px -70px 0px;
+      "
+      class="quicksand-simple"
+    >
+
+<!-- * ANA TATLI HAKKINDA BİLGİLER  -->
+    <div1  style="grid-row: 1/3;grid-column: 1/ 5; padding-left: 20px; padding-top: 90px; " >
+        <div class="barrio-regular" style="font-size: xx-large; " >
+        <p style="font-size: larger;" >TATLILAR :</p>
+        <p class="highlightTatli" style="padding-left: 50px;" > orman <br>meyveli pasta</p>
+        
+        </div>
+        <div style="width: 400px;">
+            <p>Pandispanya üzerine, tablodan seçtiğiniz malzeme ile oluşturulan krema ile kaplanıp tablodan seçeceğiniz malzemeler ve krema ile süslenerek servis edilir.</p>
+        </div>
+    </div1>
+
+<!-- * ANA TATLININ RESMİ-->
+    <div2  style="grid-row: 1/3;grid-column: 5/ 9; display: flex; justify-content: center;padding-top: 100px;">
+        <div style="position: relative; width: 250px; height: 125px; box-shadow: 0px 0px 100px 80px rgb(71, 51, 28); border-radius: 100%; top: 110px;"></div>
+        <div style="position: absolute;"><img style="height: 300px;" src="/img/tatli/pasta.png" alt=""></div>
+        
+    </div2>
+
+
+<!-- * TATLI TÜRLERİ, EKSTRALAR VE ÜCRETLER HAKKINDA TABLO-->
+    <div3  style="grid-row: 1/3; grid-column: 9/ 13;margin-bottom: 50px;padding-top: 40px; ; display: flex; justify-content: end; padding-right: 20px; ">
+
+      <table class="tatli" style="font-size: 15px; width: 400px;">
+        <tr>
+            <th style="border-top-left-radius: 10px;">Tatlı Türleri</th>
+            <th>Tatlı Ücretleri</th>
+            <th>Ekstralar</th>
+            <th style="border-top-right-radius: 10px;">Ekstra Ücretleri</th>
+        </tr>
+    
+        <tr>
+            <td rowspan="3">Pasta</td>
+            <td rowspan="3">150 ₺</td>
+            <td>karamel sosu</td>
+            <td>10 ₺</td>
+        </tr>
+        <tr>
+            <td>çikolata sosu</td>
+            <td>8 ₺</td>
+        </tr>
+        <tr>
+            <td>çilek sosu</td>
+            <td>10 ₺</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="2">Cheesecake</td>
+            <td rowspan="2">160 ₺</td>
+            <td>çilek sosu</td>
+            <td>10 ₺</td>
+        </tr>
+        <tr>
+            <td>beyaz çikolata sosu</td>
+            <td>10 ₺</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="2">Pankek</td>
+            <td rowspan="2">140 ₺</td>
+            <td>ekstra krema</td>
+            <td>12 ₺</td>
+        </tr>
+        <tr>
+            <td>lotus sosu</td>
+            <td>15 ₺</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="2">Kruvasan</td>
+            <td rowspan="2">130 ₺</td>
+            <td>bal</td>
+            <td>12 ₺</td>
+        </tr>
+        <tr>
+            <td>muz</td>
+            <td>8 ₺</td>
+        </tr>
+    
+        <tr>
+            <td style="border-bottom-left-radius: 10px;" rowspan="2">Magnolya</td>
+            <td rowspan="2">150 ₺</td>
+            <td>çilek</td>
+            <td>10 ₺</td>
+        </tr>
+        <tr>
+            <td>orman meyveleri</td>
+            <td style="border-bottom-right-radius: 10px;">12 ₺</td>
+        </tr>
+    </table>
+
+    </div3>
+
+<!-- * LİNKLİ CHEESECAKE RESMİ  -->
+    <div4 class="div-" style="grid-row: 3/4 ;grid-column: 1/ 4 ; margin-top: 0;  ">
+        
+        <a href="#cheesecake">
+            <img style="height: 170px;" src="/img/tatli/cheesecake.png" alt="">
+        </a>
+    </div4>
+
+<!-- * LİNKLİ PANKEK RESMİ -->
+    <div5 class="div-"  style=" grid-row: 3/4 ;grid-column: 4/ 7;margin-top: 0">
+        
+        <a href="#pankek">
+            <img style="height: 170px;"  src="/img/tatli/pankek.png" alt="">
+        </a>
+    </div5>
+
+<!-- * LİNKLİ KRUVASAN RESMİ -->
+    <div6 class="div-"  style=" grid-row: 3/4 ;grid-column: 7/ 10;margin-top: 0">
+        
+        <a href="#kruvasan">
+            <img style="height: 170px;"   src="/img/tatli/kruvasan.png" alt="">
+        </a>
+    </div6>
+
+<!-- * LİNKLİ MAGNOLYA RESMİ -->
+    <div7 class="div-"  style=" grid-row: 3/4 ;grid-column: 10/ 13;margin-top: 0">
+        
+        <a href="#magnolya">
+            <img style="height: 170px;" src="/img/tatli/magnolya.png" alt="">
+        </a>
+        
+    </div7>
+  </div>
+
+<!-- * ÜRÜN AÇIKLAMALARI -->
+  <div>
+    <p
+    class="quicksand-simple"
+        style="
+          text-align: center;
+          column-count: 4;
+          column-gap: 50px;
+          margin-left: 25px;
+          padding-bottom: 50px;
+        ">
+        <span class="highlightTatli">CHEESECAKE</span><br><br>
+        Alt tabaka ince bir ufalanmış bisküvi katmanından oluşur. <br>
+        Ana ve en kalın katman; yumuşak, taze peynir, yumurta ve şeker katmanından oluşur. <br>
+        Üzeri, dilediğiniz sos ve krema ile ile süslenip servis edilir. <br> 
+
+        <span class="highlightTatli">PANKEK</span><br><br>
+        Nişasta bazlı; yumurta, süt ve tereyağı içeren, ince ve yuvarlak bir hamur işi tatlısıdır. <br>
+        Üzerine dilediğinis sos dökülerek, krema ve tablodan seçeceğiniz meyveler ile süslenerek servis edilir. <br>
+        (İlk meyve ve sos fiyata dahildir. ) <br>
+        (İkinci ve daha sonraki ekstra istekleriniz, ektra olarak ücretlendirilecektir.) <br>
+
+
+        <span class="highlightTatli">KRUVASAN</span><br><br>
+        Bol tereyağı ile yapılan, kat kat, hilal şeklinde tatlı çörek. <br>
+        Krema ve tablodan seçeceğiniz meyveler ile süslenerek servis edilir. <br>
+        (İlk meyve ve sos fiyata dahildir. ) <br>
+        (İkinci ve daha sonraki ekstra istekleriniz, ektra olarak ücretlendirilecektir.) <br>
+
+
+        <span class="highlightTatli">MAGNOLYA</span><br><br>
+        Krema, süt ve yumurta gibi ana malzemelerle hazırlanan hafif bir tatlıdır. <br>
+        Tatlı, yumuşak bir pandispanya keki tabanına sahiptir ve üzeri dolgun bir kremayla kaplanır. <br>
+        Üzeri ve içi tablodan seçeceğiniz meyvelerle birleştirilerek sunulur. <br>
+        Soğuk servis edilir. <br>
+
+    </p>
+  </div>
+    
+</body>
+</html>

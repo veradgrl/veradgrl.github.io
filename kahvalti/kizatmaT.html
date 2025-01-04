@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAND</title>
+    <link rel="stylesheet" href="/index.css">
+
+<!-- * fontların bildirilmesi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+<body>
+<!-- * HEADER -->
+    <header header style="position: sticky; top: 0; background-color: white">
+        <div style="display: flex; justify-content: space-between;align-items: center;">
+<!--BRAND yazısı-->
+          <div>
+            <a class="barrio-regular" style="font-size: 60px">BrAnd</a>
+          </div>
+<!--header butonları-->
+          <div style="padding-top: 10px">
+            <button>
+              <a class="buttonText quicksand-simple" href="/index.html">home</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/icecek/cappuccino.html">içecek</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/tatli/pasta.html">tatlı</a>
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple headerKahvalti" href="/kahvalti/kizatmaT.html"
+                >kahvaltı</a
+              >
+            </button>
+            <button>
+              <a class="buttonText quicksand-simple" href="/bizimleCalis.html"
+                >bizimle çalış</a
+              >
+            </button>
+          </div>
+        </div>
+      </header>
+
+      
+<!-- * BODY -->
+      <div
+      style="
+        display: grid;
+        grid-template-rows: repeat(3, 1fr) ;
+        grid-template-columns: repeat(12, 1fr);
+        margin: 20px 0px -70px 0px;
+      "
+      class="quicksand-simple"
+    >
+
+<!-- * ANA TABAK HAKKINDA BİLGİLER  -->
+    <div1  style="grid-row: 1/3;grid-column: 1/ 5; padding-left: 20px; padding-top: 90px;" >
+        <div class="barrio-regular" style="font-size: xx-large; " >
+        <p style="font-size: larger;" >Kahvaltılıklar :</p>
+        <p class="highlightBreakfast" style="padding-left: 50px;" > kızartma <br> tabağı</p>
+        
+        </div>
+        <div style="width: 400px;">
+            
+              <ul>
+                <li>Kızarmış yumurta</li>
+                <li>Kızarmış ekmek (1 dilim)</li>
+                <li>Kızarmış sosis (2 adet)</li>
+                <li>Taze domates (6 adet)</li>
+                <li>Mantar sote</li>
+                <li>Biber sote</li>
+                <li>Konserve et (2 adet)</li>
+              </ul>
+              
+            
+        </div>
+    </div1>
+
+<!-- * ANA TABAĞIN RESMİ-->
+    <div2 style="grid-row: 1/3;grid-column: 5/ 9; display: flex; justify-content: center;padding-top: 100px;">
+        <div style="position: relative; width: 250px; height: 250px; box-shadow: 0px 0px 100px 40px rgb(71, 51, 28); border-radius: 100%; top: 25px; "></div>
+        <div style="position: absolute;"><img style=" height: 300px;" src="/img/kahvalti/kizartma.png" alt=""></div>
+        
+    </div2>
+
+
+<!-- * KAHVALTI TABAĞI TÜRLERİ, EKSTRALAR VE ÜCRETLER HAKKINDA TABLO-->
+    <div3  style="grid-row: 1/3; grid-column: 9/ 13; margin-bottom: 50px; padding-top: 40px; display: flex; justify-content: end; padding-right: 20px;">
+
+        <table class="kahvalti" style="font-size: 15px; width:400px;" >
+           <tr>
+            <th style="border-top-left-radius: 10px">Kahvaltı Tabakları</th>
+            <th>Kahvaltı Tabak Ücretleri</th>
+            <th>Ekstralar</th>
+            <th style="border-top-right-radius: 10px">Ekstra Ücretleri</th>
+           </tr>
+
+           <tr>
+            <td rowspan="2">Kızartma Tabağı</td>
+            <td rowspan="2">470 ₺</td>
+            <td rowspan="1">yumurta</td>
+            <td rowspan="1">15 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="1">mantar sote</td>
+            <td rowspan="1">10 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="2">Salata Tabağı</td>
+            <td rowspan="2">350 ₺</td>
+            <td rowspan="1">biber sote</td>
+            <td rowspan="1">10 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="1">kızarmış sosis</td>
+            <td rowspan="1">12 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="2">Sandviç Tabağı</td>
+            <td rowspan="2">450 ₺</td>
+            <td rowspan="1">patates kızartması</td>
+            <td rowspan="1">10 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="1">hindi füme</td>
+            <td rowspan="1">15 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="2">Klasik Tabak</td>
+            <td rowspan="2">350 ₺</td>
+            <td rowspan="1">konserve et</td>
+            <td rowspan="1">20 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="1">domates</td>
+            <td rowspan="1">5 ₺</td>
+           </tr>
+
+            <td style="border-bottom-left-radius: 10px" rowspan="2">Kruvasan Tabğı</td>
+            <td rowspan="2">400 ₺</td>
+            <td rowspan="1">avacado</td>
+            <td rowspan="1">15 ₺</td>
+           </tr>
+
+           <tr>
+            <td rowspan="1">yaban mersini</td>
+            <td style="border-bottom-right-radius: 10px" rowspan="1">15 ₺</td>
+           </tr>
+           
+        </table>
+
+    </div3>
+
+<!-- * LİNKLİ SALATA TABAĞI RESMİ  -->
+    <div4 class="div-" style="grid-row: 3/4 ;grid-column: 1/ 4 ; margin-top: 0;  ">
+        
+        <a href="#salata_tabagi">
+            <img style="height: 170px;" src="/img/kahvalti/salata.png" alt="">
+        </a>
+    </div4>
+
+<!-- * LİNKLİ SANDVİÇ TABAĞI RESMİ -->
+    <div5 class="div-"  style=" grid-row: 3/4 ;grid-column: 4/ 7;margin-top: 0">
+        
+        <a href="#sandvic_tabagi">
+            <img style="height: 170px;"  src="/img/kahvalti/sandvic.png" alt="">
+        </a>
+    </div5>
+
+<!-- * LİNKLİ KLASİK TABAK RESMİ -->
+    <div6 class="div-"  style=" grid-row: 3/4 ;grid-column: 7/ 10;margin-top: 0">
+        
+        <a href="#klasik_tabak">
+            <img style="height: 170px;"   src="/img/kahvalti/klasik.png" alt="">
+        </a>
+    </div6>
+
+<!-- * LİNKLİ KRUVASAN TABAĞI RESMİ -->
+    <div7 class="div-"  style=" grid-row: 3/4 ;grid-column: 10/ 13;margin-top: 0">
+        
+        <a href="#kruvasan_tabagi">
+            <img style="height: 170px;" src="/img/kahvalti/kruvasanT.png" alt="">
+        </a>
+        
+    </div7>
+  </div>
+
+<!-- * ÜRÜN AÇIKLAMALARI -->
+  <div>
+    <p
+    class="quicksand-simple"
+        style="
+          text-align: center;
+          column-count: 4;
+          column-gap: 50px;
+          margin-left: 25px;
+          padding-bottom: 50px;
+        ">
+        <span class="highlightBreakfast">SALATA TABAĞI</span>  <br><br>
+        Kızarmış yumurta <br>
+        Tam tahıllı ekmek (3 dilim) <br>
+        Salata <br> 
+        - marul <br>
+        - domates <br>
+        - üzüm <br>
+        - yaban mersini <br>
+
+        <span class="highlightBreakfast">SANDVİÇ TABAĞI</span><br><br>
+        Bagel (1 bagel ikiye bölünür) <br>
+        Haşlama yumurta (2 adet) <br>
+        Krem peynir <br>
+        Marul <br>
+        Hindi füme (3 dilim)<br>
+        Avacado (1 adet) <br>
+        Kızarmış domates <br>
+
+        <span class="highlightBreakfast">KLASİK TABAK</span><br><br>
+        Tam tahıllı ekmek (2 dilim) <br>
+        Mantar sote <br>
+        Hindi füme (2 dilim)<br>
+        Haşlama yumurta (1 adet) <br>
+        Avacado (1 adet) <br>
+        
+        <span class="highlightBreakfast">KRUVASAN TABAĞI</span><br><br>
+        Kruvasan (1 adet küçük boy) <br>
+        Yumurta (1 adet, kruvasan içinde)
+        Baharatlı patates kızartması <br>
+        Kızarmış sosis (2 adet) <br>
+        Kivi (1 adet) <br>
+        Yaban mersini <br>
+
+
+    </p>
+  </div>
+    
+</body>
+</html>

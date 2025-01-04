@@ -1,0 +1,185 @@
+/* button style  */
+button {
+  border: none;
+  background-color: white;
+}
+
+.buttonText {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  padding: 0px 10px;
+}
+
+button:hover {
+  transform: scale(1.12);
+}
+
+button.index {
+  background-color: rgb(109, 90, 70);
+}
+/* ---------------------------------- */
+
+/* header style  */
+.headerSelectedButton {
+  background-color: #eb5996;
+  color: white;
+}
+.headerIndex {
+  background-color: #544639;
+  color: white;
+}
+.headerKahvalti {
+  background-color: #ef5454;
+  color: white;
+}
+.headerIcecek {
+  background-color: #7d6245;
+  color: white;
+}
+.headerTatli {
+  background-color: #900000;
+  color: white;
+}
+/* ---------------------------------- */
+
+/* font-families  */
+/**------şekilli ve farklı olan font-----------*/
+.barrio-regular {
+  font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**----------genel amaçlı kullanılan düz font------*/
+.quicksand-simple {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ---------------------------------- */
+
+/* table styles  */
+table {
+  background-color: #eb5996;
+  border-radius: 12px;
+}
+
+table.kahvalti {
+  background-color: #ef5454;
+  border-radius: 12px;
+}
+table.icecek {
+  background-color: #7d6245;
+  border-radius: 12px;
+}
+table.tatli {
+  background-color: #900000;
+  border-radius: 12px;
+}
+
+tr {
+  background-color: white;
+}
+
+th {
+  padding: 7px;
+}
+
+td {
+  padding: 7px;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+/* ---------------------------------- */
+
+.blueContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+
+  border: solid 2px #eb5996;
+  width: 250px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div- {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-:hover {
+  transform: scale(1.05);
+}
+
+/* text styles  */
+.highlight {
+  font-family: "Barrio", serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: #eb5996;
+}
+.highlightCoffee {
+  font-family: "Barrio", serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: #7d6245;
+}
+.highlightBreakfast {
+  font-family: "Barrio", serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ef5454;
+}
+.highlightTatli {
+  font-family: "Barrio", serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  color: #900000;
+}
+.highlight2 {
+  color: #000000;
+  font-weight: 700;
+}
+.switch {
+  background-color: #eb5996;
+  color: white;
+  font-size: 80px;
+}
+/* ---------------------------------- */
+
+.iconDiv {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 0px #544639;
+}
+
+.icons {
+  width: 20px;
+  padding-top: 5px;
+}
+
+.iconDiv:hover {
+  transform: scale(1.1);
+}
+
+.basvuruGereksinim_div {
+  background-color: #d5d5d539;
+  border-radius: 12px;
+}

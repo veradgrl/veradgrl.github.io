@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>BRAND</title>
+
+<!-- * fontların bildirilmesi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="quicksand-simple">
+<!-- * HEADER -->
+    <header style="position: sticky; top: 0; background-color: white">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+<!--BRAND yazısı-->
+        <div>
+          <a class="barrio-regular" style="font-size: 60px">BrAnd</a>
+        </div>
+<!--header butonları-->
+        <div style="padding-top: 10px">
+          <button>
+            <a class="buttonText quicksand-simple" href="index.html">home</a>
+          </button>
+          <button>
+            <a class="buttonText quicksand-simple" href="/icecek/cappuccino.html">içecek</a>
+          </button>
+          <button>
+            <a class="buttonText quicksand-simple" href="tatli/pasta.html">tatlı</a>
+          </button>
+          <button>
+            <a class="buttonText quicksand-simple" href="kahvalti/kizatmaT.html"
+              >kahvaltı</a
+            >
+          </button>
+          <button>
+            <a
+              class="buttonText quicksand-simple headerSelectedButton"
+              href="bizimleCalis.html"
+              >bizimle çalış</a
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+<!-- * BODY bölümü-->
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 70px 0px 45px 0px;
+      "
+    >
+<!--chekbox'lu başvuru alanı seçim tablosu-->
+      <div1
+        class="quicksand-simple"
+        style="
+          padding-top: 90px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+<!-- tabloyu içeren alan -->
+        <div>
+          <table>
+            <tr>
+              <th style="border-top-left-radius: 10px">
+                Başvurmak istediğiniz Alan
+              </th>
+              <th style="border-top-right-radius: 10px"></th>
+            </tr>
+            <tr>
+              <td>Mutfak</td>
+              <td>
+                <input type="checkbox" />
+              </td>
+            </tr>
+            <tr>
+              <td>Servis</td>
+              <td>
+                <input type="checkbox" />
+              </td>
+            </tr>
+            <tr>
+              <td>Temizlik</td>
+              <td>
+                <input type="checkbox" />
+              </td>
+            </tr>
+            <tr>
+              <td style="border-bottom-left-radius: 10px">Tezgah</td>
+              <td style="border-bottom-right-radius: 10px">
+                <input type="checkbox" />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div1>
+
+<!-- Bizinle çalışmak ister misin -->
+      <div2 style="display: flex; align-items: center; flex-direction: column">
+        <div
+          class="barrio-regular"
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 60px;
+            text-align: center;
+          "
+        >
+          <p>
+            BİZİMLE <br />
+            <span class="switch">ÇALIŞMAK</span> <br />
+            İSTER <br />
+            MİSİN
+          </p>
+        </div>
+      </div2>
+
+      <div3
+        class="quicksand-simple"
+        style="display: flex; align-items: center; flex-direction: column"
+      >
+<!--* BAŞVURU FORMU -->
+<!-- label kullandım ki kullanıcı, alan yerine yazıya bassa da alana basmış gibi olsun -->
+        <div class="blueContainer">
+          <p style="text-align: center">
+            Sizinle iletişime geçebilmemiz için aşağıdaki bilgileri doldurunuz.
+          </p>
+<!-- * FORM-->
+          <form action="">
+<!--isim-->
+            <label for="isim">Ad : </label>
+            <br />
+            <input
+              class="quicksand-simple"
+              type="text"
+              name="isim"
+              id="isim"
+              placeholder="Elle"
+            />
+
+            <br /><br />
+<!--soyisim-->
+            <label for="soyisim">Soyad :</label>
+            <br />
+            <input
+              class="quicksand-simple"
+              type="text"
+              name="soyisim"
+              id="soyisim"
+              placeholder="Woods"
+            />
+
+            <br /><br />
+<!--eposta-->
+            <label for="eposta">E-posta :</label>
+            <br />
+            <input
+              class="quicksand-simple"
+              type="email"
+              name="eposta"
+              id="eposta"
+              placeholder="ellewoods@gmail.com"
+            />
+
+            <br /><br />
+
+<!--telefon-->
+            <label for="telefon">Telefon :</label>
+            <br />
+            <input
+              class="quicksand-simple"
+              type="tel"
+              name="telefon"
+              id="telefon"
+              placeholder="555-555-555"
+            />
+
+            <br /><br />
+<!--cinsiyet-->
+            <label for="cinsiyet">Cinsiyet :</label>
+            <br />
+            <label for="kadin">Kadın</label>
+            <input type="radio" name="cinsiyet" id="kadin" />
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek" />
+
+            <br /><br />
+          </form>
+<!--"gönder" butonu-->
+          <button
+            style="
+              border-radius: 6px;
+              border: solid 2px #eb5996;
+              background-color: #eb599620;
+            "
+          >
+            <a class="buttonText quicksand-simple" href="bizimleCalis.html"
+              >Gönder</a
+            >
+          </button>
+        </div>
+      </div3>
+    </div>
+
+    <!-- *--YAPILACAK BAŞVURU GEREKSİNİMLERİ -->
+    <div
+      style="
+        display: flex;
+        gap: 50px;
+        text-align: center;
+        margin: 0px 20px 50px 20px;
+      "
+    >
+<!-- *-- MUTFAK BAŞVURUSU İÇİN GEREKSİNİMLER -->
+      <div class="basvuruGereksinim_div" >
+        <p>
+          <span class="highlight">MUTFAK</span><br><br>
+
+          <span class="highlight2">Temel Gereksinimler:</span>
+          <br><br>
+          - En az 2 yıl mutfak deneyimi<br>
+          - Tercihen pastane veya kafede çalışmış olmak<br>
+          - Vardiyalı çalışma sistemine uyum sağlayabilme<br><br>
+
+          <span class="highlight2">Beklenen Yetkinlikler:</span>
+          <br><br>
+          - Kahvaltı menüsü hazırlama konusunda deneyim<br>
+          - Tatlı, pasta, kahvaltı tabağı hazırlama konularında deneyim<br>
+          - Mutfak ekipmanlarını etkin ve pratik kullanabilme<br>
+          - El çabukluğu ve pratik olma<br><br>
+          
+
+          <span class="highlight2">Çalışma Koşulları:</span><br><br>
+          - Tam zamanlı çalışma<br>
+          - Hafta sonu çalışma<br>
+          - Takım içi çalışma<br>
+          
+        </p>
+      </div>
+
+<!-- *-- SERVİS BAŞVURUSU İÇİN GEREKSİNİMLER -->
+      <div class="basvuruGereksinim_div" >
+        <p>
+          <span class="highlight">SERVİS</span><br><br>
+
+          <span class="highlight2">Temel Gereksinimler:</span><br><br>
+          - Servis deneyimi<br>
+          - Müşterilerle saygılı ve sıcak iletişim<br>
+          - Tercihen temel düzeyde İngilizce<br><br>
+
+          <span class="highlight2">Sorumluluklar:</span><br><br>
+          - Masa düzeni ve servis hazırlığı<br>
+          - Sipariş alma ve servis yapma<br>
+          - Masa ve ortamın genel temizliği<br>
+          - Müşteri memnuniyeti<br>
+          - Gerekli durumlarda kasaya destek<br><br>
+
+          <span class="highlight2">Çalışma Koşulları:</span><br><br>
+          - Tam zamanlı çalışma<br>
+          - Vardiyalı sistem<br>
+          - Hafta sonu çalışma<br>
+        </p>
+      </div>
+
+<!-- *-- TEMİZLİK BAŞVURUSU İÇİN GEREKSİNİMLER -->
+      <div class="basvuruGereksinim_div" >
+        <p>
+          <span class="highlight">TEMİZLİK</span><br><br>
+
+          <span class="highlight2">Sorumluluklar: </span>
+          <br><br>
+          - Kafenin genel temizlik ve düzeninin sağlanması<br>
+          - Mutfak ve servis alanlarının temizlenmesi<br>
+          - Temizlik malzemelerinin takibi ve temini<br><br>
+
+          <span class="highlight2">Temel Gereksinimler:</span>
+          <br><br>
+          - Benzer pozisyonda en az 1 yıl deneyim<br>
+          - Temizlikte pratiklik<br>
+          - Esnek çalışma saatlerine uyum<br><br>
+
+          <span class="highlight2">Çalışma Koşulları:</span><br><br>
+          - Yarı zamanlı çalışma<br>
+          - Hafta sonu çalışma<br>
+        </p>
+      </div>
+
+<!-- *-- TEZGAH BAŞVURUSU İÇİN GEREKSİNİMLER -->
+      <div class="basvuruGereksinim_div" >
+        <p>
+          <span class="highlight">TEZGAH</span><br><br>
+
+          <span class="highlight2">Temel Gereksinimler:</span>
+          <br><br>
+          - En az 2 yıl barista deneyimi<br>
+          - Espresso bazlı kahvelerde yetkinlik<br>
+          - Latte art yapabilme<br>
+          - Kahve ekipmanları kullanım bilgisi<br><br>
+
+          <span class="highlight2">Tezgah Sorumlulukları:</span>
+          <br><br>
+          - Müşteri karşılama ve sipariş alma<br>
+          - Kasa ve POS cihazı kullanımı<br>
+          - Tezgah düzeni ve temizliği<br><br>
+
+          <span class="highlight2">Çalışma Koşulları:</span><br><br>
+          - Tam zamanlı çalışma<br>
+          - Vardiyalı sistem<br>
+          - Hafta sonu çalışma<br>
+        </p>
+      </div>
+    </div>
+    <!-- *-------------------------------------------------------------------------------->
+  </body>
+</html>
